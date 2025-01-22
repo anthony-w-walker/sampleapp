@@ -32,7 +32,7 @@ jobs:
           
   call-reusable-deployment-workflow-job:
     needs: build-job
-    uses: ./.github/workflows/reusable-depoly.yma
+    uses: ./.github/workflows/reusable-depoly.yml
     with:
       package-name: .net-app
       app-name: appsvc1
